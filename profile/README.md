@@ -230,5 +230,3 @@ a resource "azurerm_postgresql_flexible_server" "db" {
 5. Configurar secretos cloud (por ejemplo `AZURE_CREDENTIALS`) en *Environments*.
 6. Probar pipeline CI en `service-users`.
 7. Activar **GitHub Projects v2** y el workflow de auto‑triage `add-to-project.yml`.
-
-> ¡Listo! Con esta configuración dispondrás de compilación, tests, análisis de seguridad, versión semántica, despliegue por entornos y trazabilidad centralizada con el mínimo esfuerzo operativo.
